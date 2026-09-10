@@ -96,4 +96,31 @@ I checked the network settings in Kali Linux and configured the IP address, gate
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
-DNS: 8.8.8.8
+DNS: 8.8.8.8 
+```
+## 🐞 Problems I Encountered & How I Solved Them
+
+### 1. VirtualBox Could Not Start Kali Linux
+
+At first, the Kali Linux virtual machine failed to boot and showed an error saying that the virtual machine could not find a bootable operating system.
+
+I checked the VM settings, especially the storage and boot configuration, to make sure the Kali virtual disk was properly connected.
+
+### 2. VirtualBox Was Not Recognized in Command Prompt
+
+When I tried to use `VBoxManage` from Command Prompt, Windows showed that the command was not recognized.
+
+I solved this by running the VirtualBox executable using its full installation path.
+
+```cmd
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" list vms
+```
+This allowed me to view the Kali virtual machines registered in VirtualBox.
+
+3. Managing Multiple Kali VMs
+
+I found two Kali Linux virtual machines registered in VirtualBox. Instead of deleting one immediately, I checked which VM was working correctly before making any changes.
+
+This taught me to verify a virtual machine before deleting or modifying it.
+
+
