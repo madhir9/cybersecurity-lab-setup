@@ -123,4 +123,20 @@ I found two Kali Linux virtual machines registered in VirtualBox. Instead of del
 
 This taught me to verify a virtual machine before deleting or modifying it.
 
+## 💡 What I Learned
+
+Through this project, I learned how to set up and use a virtual cybersecurity environment.
+
+Some of the things I learned include:
+
+* How to install and configure VirtualBox
+* How to install and run Kali Linux
+* How virtual machines work
+* How to create and configure a NAT Network
+* How to check and configure IP addresses
+* How to create and use VM snapshots
+* How to troubleshoot common VirtualBox and networking problems
+* The importance of documenting my work step by step
+
+This project gave me a better understanding of the basics of cybersecurity and virtual networking. It also helped me gain more confidence working with Kali Linux and troubleshooting technical problems.
 
