@@ -19,4 +19,4 @@ The main objectives of this project were to:
 - VirtualBox
 - Kali Linux
 - 7-Zip
-- Nmap
+
