@@ -13,3 +13,10 @@ The main objectives of this project were to:
 - Create a private NAT Network
 - Configure Kali Linux network settings
 - Test network connectivity
+
+## 🛠️ Tools Used
+
+- VirtualBox
+- Kali Linux
+- 7-Zip
+- Nmap
